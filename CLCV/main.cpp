@@ -21,7 +21,7 @@ void modifyArrayMenu(int array[],int arraySize);
 bool isMainArrayInitialized = false;
 
 int main(int argc, const char * argv[]) {
-    int arraySize;
+    int arraySize = 1;
     int *mainArray = new int[arraySize];
     
     
